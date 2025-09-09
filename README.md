@@ -1,2 +1,43 @@
 # Online-technician-booking-android-application
-This application provides authentication system for both technicians and buyers , buyers can find nearby technicians using google maps API used in it, and also can verify technicians's ability by the technician's rating, working status of workers is also included, also the distance they are away from the buyer's current location will be shown, once request is sent to any technician selected from the google map, technician will receive request and can decline or accept it, if technician will accept request, he will not be able to respond other buyers requests, until he is not declining the client request he accepted, this feature will save the time of buyer and give them a option to select another worker, also both client's and worker's contact numbers will not be shared among them, until worker is not accepting request, once he accept request both client and worker contact numbers will be visible to each other, after accepting client's request , now worker has two options to start working or to decline request, if he decided to start working, client will be notified , by refreshing the 'work in process' option , and when worker will complete its work he will tap to 'work completed' option , and after that both client and worker will be able to give feedback to eachother through rating. [Frontend : XML & JAVA] [Database: Mysql]
+# Android App for Handyman Services  
+
+An Android application that connects buyers with nearby technicians (plumbers, electricians, carpenters, etc.) using Google Maps API for real-time location tracking.  
+The app features dual authentication portals, distance-based technician filtering, request management, and a secure workflow for booking and completing services.  
+
+---
+
+## Key Features  
+- Dual Authentication System – Separate login portals for buyers and technicians.  
+- Technician Discovery – Buyers view nearby technicians on Google Maps with distance filtering.  
+- Request Management – Buyers send service requests; technicians can accept or decline.  
+- Fair Allocation – Once a request is accepted, the technician becomes unavailable for others until the task is completed or declined.  
+- Privacy Protection – Contact details shared only after a request is accepted.  
+- Work Status Tracking – Technician updates progress: *Start Work* → *Work Completed*.  
+- Ratings & Reviews – Both buyers and technicians can rate each other after completion.  
+
+---
+
+## Tech Stack  
+- Frontend: Java, XML, Material Design  
+- Backend: PHP, Volley Library  
+- Database & Hosting: MySQL (000webhost)  
+- APIs: Google Maps API  
+
+---
+
+## Workflow  
+1. Buyer Login: Selects category (plumber, electrician, etc.) and views nearby technicians on Google Maps.  
+2. Request: Buyer sends a request; technician receives request with client distance visible.  
+3. Acceptance: If technician accepts → contact details are exchanged; technician is locked to that request.  
+4. Work Process: Technician updates status (working → completed).  
+5. Feedback: After completion, both buyer and technician exchange ratings and reviews.  
+
+---
+
+## Future Enhancements  
+- Real-time chat integration between buyers and technicians.  
+- Online payment gateway for secure transactions.  
+- Push notifications for request updates.  
+
+   ```bash
+   git clone https://github.com/yourusername/handyman-app.git
