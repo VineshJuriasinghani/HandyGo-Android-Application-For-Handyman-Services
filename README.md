@@ -1,4 +1,4 @@
-# Online-technician-booking-android-application
+# OHandyGo-Android-Application-For-Handyman-Services
 
 An Android application that connects buyers with nearby technicians (plumbers, electricians, carpenters, etc.) using Google Maps API for real-time location tracking.  
 The app features dual authentication portals, distance-based technician filtering, request management, and a secure workflow for booking and completing services.  
